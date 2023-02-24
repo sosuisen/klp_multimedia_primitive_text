@@ -1,4 +1,5 @@
 const app = new PIXI.Application({ background: '#1099bb' });
+gsap.registerPlugin(PixiPlugin);
 app.ticker.stop();
 gsap.ticker.add(time => {
     app.ticker.update();
