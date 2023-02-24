@@ -66,6 +66,7 @@ app.stage.addChild(skewText);
  * Unicode 絵文字を利用
  * https://lets-emoji.com/emojilist/
  */
+/*
 const emojiStyle = new PIXI.TextStyle({
     fontSize: 42,
     padding: 5, // 絵文字の上下が切れないように余白を追加
@@ -106,3 +107,4 @@ gsap.fromTo(bell, {
         angle: 60,
     }
 });
+*/
