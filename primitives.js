@@ -30,7 +30,8 @@ graphics.endFill();
 // https://pixijs.download/release/docs/PIXI.Graphics.html#drawPolygon
 const path = [100, 240, 200, 360, 280, 320, 230, 470, 50, 400];
 graphics.lineStyle(0);
-graphics.beginFill(0x3500fa, 1);
+// 指定のテクスチャで塗りつぶす
+graphics.beginTextureFill({ texture: PIXI.Texture.from('star.png') });
 graphics.drawPolygon(path);
 graphics.endFill();
 
