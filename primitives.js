@@ -88,4 +88,18 @@ graphics.moveTo(500, 450);
 graphics.quadraticCurveTo(550, 400, 600, 450);
 graphics.quadraticCurveTo(650, 500, 700, 450);
 
+/**
+ * 基本課題：雪だるま
+ */
+// 頭
+graphics.beginFill(0xffffff);
+graphics.lineStyle(3, 0xa0ffff);
+graphics.drawCircle(400, 440, 40);
+graphics.endFill();
+// 体
+graphics.beginFill(0xffffff);
+graphics.lineStyle(3, 0xa0ffff);
+graphics.drawCircle(400, 530, 50);
+graphics.endFill();
+
 app.stage.addChild(graphics);
