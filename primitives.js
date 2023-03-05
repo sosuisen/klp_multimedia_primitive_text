@@ -1,3 +1,5 @@
+import * as PIXI from 'pixi.js';
+
 const app = new PIXI.Application({ antialias: true, backgroundColor: 0xa0a0ff });
 document.body.appendChild(app.view);
 

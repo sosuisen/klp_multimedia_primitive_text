@@ -1,5 +1,12 @@
-const app = new PIXI.Application({ background: '#1099bb' });
+import * as PIXI from 'pixi.js';
+import { gsap } from "gsap";
+import { PixiPlugin } from "gsap/PixiPlugin";
+
 gsap.registerPlugin(PixiPlugin);
+PixiPlugin.registerPIXI(PIXI); 
+
+const app = new PIXI.Application({ background: '#1099bb' });
+
 app.ticker.stop();
 gsap.ticker.add(time => {
     app.ticker.update();
