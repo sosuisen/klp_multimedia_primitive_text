@@ -64,7 +64,7 @@ const skewStyle = new PIXI.TextStyle({
 const skewText = new PIXI.Text('SKEW IS COOL', skewStyle);
 skewText.skew.set(-Math.PI / 8, 0);
 // skewText.skew.set(-Math.PI/8, -Math.PI/8);
-skewText.anchor.set(0.5, 0.5); // 傾きの中心位置
+skewText.anchor.set(0.5, 0.5); // 中心位置
 skewText.x = 200;
 skewText.y = 250;
 
