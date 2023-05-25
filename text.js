@@ -103,7 +103,7 @@ bell.anchor.set(0.5, 0.1);
 app.stage.addChild(bell);
 gsap.fromTo(bell, {
     pixi: {
-        angle: -60,
+        rotation: -60,
     }
 }, {
     repeat: -1,
@@ -112,7 +112,7 @@ gsap.fromTo(bell, {
     duration: 1,
     yoyo: true,
     pixi: {
-        angle: 60,
+        rotation: 60,
     }
 });
 */
