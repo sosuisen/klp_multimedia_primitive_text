@@ -107,7 +107,7 @@ gsap.fromTo(bell, {
     }
 }, {
     repeat: -1,
-    // https://greensock.com/docs/v2/Easing
+    // https://greensock.com/docs/v3/Eases
     ease: 'circ.inOut',
     duration: 1,
     yoyo: true,
