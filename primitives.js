@@ -36,7 +36,7 @@ const path = [100, 240, 200, 360, 280, 320, 230, 470, 50, 400];
 // 指定のテクスチャで塗りつぶす
 await PIXI.Assets.load('star.png');
 graphics.poly(path)
-    .fill({ texture: PIXI.Texture.from('star.png'), textureSpace: 'local' });
+    .fill({ texture: PIXI.Texture.from('star.png'), textureSpace: 'global' });
 
 // Rectangle（矩形）
 graphics.rect(350, 30, 100, 100)
